@@ -27,11 +27,21 @@
             "database/factories"
         ],
         "psr-4": {
+            "Nova\\Payment\\": "packages/Nova/Payment/src",
+            "Nova\\Cus\\": "packages/Nova/Cus/src",
+            "Nova\\User\\": "packages/Nova/User/src",
+            "Nova\\Home\\": "packages/Nova/Home/src",
+            "Nova\\Admin\\": "packages/Nova/Admin/src",
             "App\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "Nova\\Payment\\": "packages/Nova/Payment/src",
+            "Nova\\Cus\\": "packages/Nova/Cus/src",
+            "Nova\\User\\": "packages/Nova/User/src",
+            "Nova\\Home\\": "packages/Nova/Home/src",
+            "Nova\\Admin\\": "packages/Nova/Admin/src",
             "Tests\\": "tests/"
         }
     },

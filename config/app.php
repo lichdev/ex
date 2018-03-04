@@ -159,6 +159,16 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        Nova\Payment\PaymentServiceProvider::class,
+
+        Nova\Cus\CusServiceProvider::class,
+
+        Nova\User\UserServiceProvider::class,
+
+        Nova\Home\HomeServiceProvider::class,
+
+        Nova\Admin\AdminServiceProvider::class,
         JeroenG\Packager\PackagerServiceProvider::class,
         'YAAP\Theme\ThemeServiceProvider',
 
